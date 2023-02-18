@@ -1,11 +1,9 @@
 package com.ms.email.controllers;
 
-import com.fasterxml.jackson.databind.util.BeanUtil;
 import com.ms.email.dtos.EmailDto;
 import com.ms.email.models.EmailModel;
 import com.ms.email.services.EmailService;
 import jakarta.validation.Valid;
-import org.apache.coyote.Response;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
